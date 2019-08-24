@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+    font-family: Arial;
+}
+.rowleft{
+    width: 30%;
+    height: 570px;
+    float: left;
+    padding: 20px;
+    bottom: 0;
+    margin-left:0;
+    background-color: #CCC;
+}
+
+.rowcenter{
+    width: 36%;
+    height: 570px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:#CCC;
+}
+.rowright{
+    width: 30%;
+    height: 570px;
+    float: right;
+    padding: 20px;
+    background-color: #CCC;
+}
+.inData{
+    width: 100%;
+    height: 130px;
+    border: 3px solid brown;
+    background-color: white;
+    margin-bottom: 10px;
+}
+p{
+    box-shadow: black;
+    text-align: center;
+    font-weight: bolder;
+}
+h4{
+    box-shadow: black;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0;
+}
+.transladar{
+    width: 100%;
+    height: 250px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 3px solid brown;
+    background-color: white;
+}
+.transladarLeft,.radarDisInTimeLeft{
+    width: 45%;
+    float: left;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    border: 3px solid brown;
+    background-color: white;
+}
+.transladarRigh,.radarDisInTimeRight{
+    width: 45%;
+    float: right;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    height: 80px;
+    border: 3px solid brown;
+}
+.rotacao{
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: white;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 3px solid brown;
+}
+.rastreamento{
+    width: 100%;
+    height: 130px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 3px solid brown;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.radar,.dataGrid,.relatorio{
+    width: 100%;
+    height: 400px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 3px solid brown;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.dataGrid{
+    height: 290px;
+}
+.relatorio{
+    height: 220px;
+}
+.radarDisInTime{
+    width: 100%;
+    height: 130px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: 3px solid brown;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.polarInt{
+    padding: 5px;
+    width: 220px;
+    margin-right: 10px;
+    float: left;
+    border-right: 4px solid #666666;
+    height: 60px;
+}
+.option{
+    padding: 5px;
+}
+.polarInt input,.formTransl input{
+    width: 100px;
+    outline: 0;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: black;
+    margin-bottom: 5px;
+}
+.polarInt input[type=submit],.formTransl input[type=submit]{
+    background-color: #bdefcc;
+}.polarInt input[type=submit]:hover{
+    background-color: #3a6547;
+    color: white;
+}.formTransl input[type=submit]:hover{
+    background-color: #3a6547;
+    color: white;
+}
+.cartesiano{
+    padding: 5px;
+    width: 220px;
+    margin-right: 10px;
+    float: left;
+    border-right: 4px solid #666666;
+    height: 60px; 
+}
+.cartesiano input,
+.rotacaoleft input,
+.rotacaoRight input,
+.rastreamento input[type=text],
+.radarDisInTimeRight input[type=text],
+.radarDisInTimeLeft input[type=text]{
+    width: 100px;
+    outline: 0;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: black;
+    margin-bottom: 5px;
+}
+.cartesiano input[type=submit],
+.rotacaoleft input[type=submit],
+.rastreamento input[type=submit],
+.radarDisInTime input[type=submit],
+.dataGrid input[type=submit]{
+    background-color: #bdefcc;
+}.cartesiano input[type=submit],
+.rotacaoleft input[type=submit]:hover{
+    background-color: #3a6547;
+    color: white;
+}
+.dataGrid input[type=submit]:hover{
+    background-color: #3a6547;
+    color: white;
+}
+.formTransl input[type=text]{
+    width: 50px;
+}
+.rastreamento{
+    padding: 30px;
+}
+.rastreamento input[type=submit]:hover{
+    background-color: #3a6547;
+    color: white;
+}.radarDisInTimeLeft{
+    height: 100px;
+}.radarDisInTimeRight{
+    height: 100px;
+}
+.radarDisInTime input[type=submit]:hover{
+    background-color: #3a6547;
+    color: white;
+}
+.dataGrid table tr th,td{
+    text-align: center;
+}
+.dataGrid table{
+    border: 1px solid #CCC;
+   
+    
+}#canvas{
+    margin-left: 50px;
+    height: 100%;
+    width: 100%;
+}canvas, img {
+    display:block;
+    border:2px solid black;
+    background:#bdefcc;
+}#canvas{
+    border: 1px solid #CCC;
+     margin: auto;
+}
+.relatorioitem{
+    float: left;
+}
